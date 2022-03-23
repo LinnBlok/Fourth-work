@@ -1,80 +1,138 @@
 /*Сложение*/
-function sumfunction(x, y){
-    const result = x + y;
-    console.log(result);
+function sumdeclaration(x, y){
+    return x + y;
 }
-sumfunction (4,6);
+const sumexpression = function (x, y){
+    return x + y;
+}
+const sumarrow = ( x, y) => {
+    return  x + y;
+}
+console.log(sumdeclaration (4,6));
+
 
 /*Вычитание*/
-const subfunction = function (c, d){
-    const result = c - d;
-    console.log(result);
+function subdeclaration (c, d){
+    return c - d;
 }
-subfunction(10, 5);
+const subexpression = function (c, d){
+    return c - d;
+}
+const subarrow= (c, d) => {
+    return c-d;
+}
+console.log( subexpression (10, 5));
 
 
 /*Умножение*/
-const multifunction = (a , b) => {
-    const result = a * b;
-    console.log(result);
+function multideclaration (a, b) {
+    return a * b;
 }
-multifunction(2, 2);
+const multiexpression = function (a, b){
+    return a * b;
+}
+const multiarrow = (a , b) => {
+    return a * b;
+}
+console.log(multiarrow (2, 2));
 
 
 /*Деление*/
-const divfunction = (f, g) => {
-    const result = f / g;
-    console.log(result);
+function divdeclaration(f, g){
+    return f / g;
 }
-divfunction(36, 6);
+const divfexpression= function (f, g){
+    return f / g;
+}
+const divarrow = (f, g) => {
+    return f / g;
+}
+console.log(divdeclaration(36, 6));
+
 
 /*Взятие остатка от деления*/
-function remainsfunction(q, w){
-    const result = q % w;
-    console.log(result);
+function remainsdeclaration(q, w){
+    return q % w;
 }
-remainsfunction(1284, 5);
+const remainsexpression = function (q, w){
+    return q % w;
+}
+const remainsarrow = (q, w) => {
+    return q % w;
+}
+console.log(remainsexpression(1284, 5)); 
+
 
 /*Больше*/
-const more = function (num1, num2){
-    const result = num1 > num2;
-    console.log(result);
+function moredeclaration (num1, num2){
+    return num1 > num2;
 }
-more(9, 7);
+const moreexpression = function (num1, num2){
+    return num1 > num2;
+}
+const morearrow = (num1, num2) =>{
+    return num1 > num2;
+}
+console.log(morearrow(9, 7));
+
 
 /*Меньше*/
-const less = (x, y) => {
-    const result = x < y;
-    console.log(result);
+function lessdeclaration(x, y){
+    return x < y;
 }
-less( 98, 64);
+const lessexpression = function (x, y){
+    return x < y;
+}
+const lessarrow = (x, y) => {
+    return x < y;
+}
+console.log(lessdeclaration( 98, 64));
 
 /*Больше или равно*/
-function moreequally(a,b){
-    const result = a >= b;
-    console.log(result);
+function moreequalldeclaration(a,b){
+    return a >= b;
 }
-moreequally( 4, 8);
-
+const moreequallyexpression = function (a, b){
+    return a >= b;
+}
+const moreequallyarrow = (a, b) => {
+    return a >= b; 
+}
+console.log(moreequallyexpression( 4, 8));
 
 /*Меньше или равно*/
-const lessequally = (r, t) => {
-    const result = r <= t;
-    console.log(result);
+function lessequallydeclaration(r, t){
+    return r <= t;
 }
-lessequally(42, 889);
+const lessequallyexpression = function (r, t){
+    return r <= t;
+}
+const lessequallyarrow = (r, t) => {
+    return r <= t;
+}
+console.log(lessequallyarrow(42, 889));
 
 /*Строгое стравнение*/
-const strict = function (c, d){
-    const result = c === d;
-    console.log(result)
+function strictdeclaration (c, d){
+    return c === d;
 }
-strict('4', 4);
+const strictexpression = function (c, d){
+    return c === d;
+}
+const strictarrow = (c, d) => {
+      return c === d;
+}
+console.log(strictdeclaration('4', 4));
 
 
 /*Не строгое стравнение*/
-const notstrict = function (a, b){
-    const result = a !== b;
-    console.log(result);
+function notstrictdeclaration(a, b){
+    return a !== b;
 }
-notstrict(6, '6');
+const notstrictexpression = function (a, b){
+    return a !== b;
+}
+const notstricarrow = (a, b) => {
+    return a !== b;
+}
+console.log(notstrictexpression(6, '6'));
