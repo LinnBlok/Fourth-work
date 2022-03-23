@@ -33,4 +33,48 @@ function remainsfunction(q, w){
     const result = q % w;
     console.log(result);
 }
-remainsfunction(1254, 5);
+remainsfunction(1284, 5);
+
+/*Больше*/
+const more = function (num1, num2){
+    const result = num1 > num2;
+    console.log(result);
+}
+more(9, 7);
+
+/*Меньше*/
+const less = (x, y) => {
+    const result = x < y;
+    console.log(result);
+}
+less( 98, 64);
+
+/*Больше или равно*/
+function moreequally(a,b){
+    const result = a >= b;
+    console.log(result);
+}
+moreequally( 4, 8);
+
+
+/*Меньше или равно*/
+const lessequally = (r, t) => {
+    const result = r <= t;
+    console.log(result);
+}
+lessequally(42, 889);
+
+/*Строгое стравнение*/
+const strict = function (c, d){
+    const result = c === d;
+    console.log(result)
+}
+strict('4', 4);
+
+
+/*Не строгое стравнение*/
+const notstrict = function (a, b){
+    const result = a !== b;
+    console.log(result);
+}
+notstrict(6, '6');
