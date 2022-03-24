@@ -112,7 +112,7 @@ const lessequallyarrow = (r, t) => {
 }
 console.log(lessequallyarrow(42, 889));
 
-/*Строгое стравнение*/
+/*Строгое равество/
 function strictdeclaration (c, d){
     return c === d;
 }
@@ -125,7 +125,7 @@ const strictarrow = (c, d) => {
 console.log(strictdeclaration('4', 4));
 
 
-/*Не строгое стравнение*/
+/*Строгое неравенство */
 function notstrictdeclaration(a, b){
     return a !== b;
 }
